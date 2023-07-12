@@ -16,5 +16,6 @@ $ terraform apply
 To access your instances use:
 
 ```
+$ chmod 400 /path/key-pair-name.pem
 $ ssh -i /path/key-pair-name.pem instance-user-name@instance-public-dns-name
 ```
